@@ -1,0 +1,18 @@
+<html>
+<Head>
+</Head>
+<body>
+    <input type="text" id="word">
+    <button  id="right">Login</button>
+    <script>
+        document.getElementById("right").onclick = function() {
+            var A = Math.floor(Math.random()*6);
+            var B = document.getElementById("word").value;
+            if (A == B){
+                alert("yep right ans")
+            }
+            else{alert(A)}
+        }
+    </script>
+</body>
+</html>
